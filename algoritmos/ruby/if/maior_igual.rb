@@ -6,7 +6,7 @@ enunciado: Criar um programa que receba dois números e exiba qual o maior ou dig
 exemplos:
   23 34: o maior entre 23 e 34 é o 34
   34 23: o maior entre 34 e 23 é o 34
-	34 34: os números são iguais
+  34 34: os números são iguais
 dificuldade: 2
 linguagem: ruby
 solucao: utilizando operador ternario
