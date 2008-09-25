@@ -1,0 +1,101 @@
+Para este exercício, tenha certeza de:
+
+Ter baixado e instalado o console.zip e ruby-irb.zip pelo site public.box.net/neves
+
+Ter adicionado a pasta c:\ruby\bin no path do windows
+
+Abra o console e digite irb, que abrirá o console interativo do ruby.
+Cada comando digitado será executado imediatamente ao pressionar ENTER,
+assim você irá testando e escrevendo seu programa interativamente.
+
+Digite: 3 + 4
+=> 7
+O retorno do comando executado é exibido logo em seguida.
+Você pode utilizar o irb como uma calculadora avançada.
+Digite: ( (2 + 3) * (8 - 4) / 2 ) - 6
+=> 4
+
+A precedência de operadores e parênteses é a mesma da matemática,
+a diferença é que na multiplicação utiliza-se * (asterísco) ao invés de ponto ou x.
+
+Uilize setas pra cima e pra baixo para navegar no histórico de comandos.
+
+Para salvar um valor para utilizarmos depois, precisamos guarda-lo em uma variável.
+
+Digite: idade = 18
+=> 18
+Digite: ano_atual = 2008
+=> 2008
+Digite: ano_nascimento = ano_atual - idade
+=> 1990
+
+No código acima, calculamos o ano de nascimento de uma pessoa, baseado na idade e no ano atual.
+
+Digite: megasena = 20143786.35
+=> 20143786.35
+
+Numeros com decimais são escritos com ponto, ao invés de vírgula como no Brasil.
+Ler números muito grandes é chato, existe uma maneira de escrevê-los utilizando underline para separar de 3 em 3.
+Digite: megasena = 20_143_786.35
+=> 20143786.35
+Mais fácil, não?
+
+Para colocar um valor em uma variável, utilizamos o sinal de = (igual).
+Para comparar dois valores, utilizamos dois sinais de = (igual).
+E para comparar se dois valores são diferentes utilizamos !=
+
+Digite: 2 == 2
+=> true
+Digite: 2 == 2.1
+=> false
+Digite: 2 != 2
+=> false
+Digite: 2 != 2.1
+=> true
+
+true e false são os valores que representam verdadeiro e falso, respectivamente.
+São chamados de valores booleanos.
+Vamos ver outro operadores:
+
+Este é o operador de potência:
+Digite: 10 ** 3
+=> 1000
+
+Este é o operador de módulo, ou resto de divisão:
+Digite: 14 % 3
+=> 2
+Pois 14 / 3 = 4 que da 12, sobrando um resto de 2
+Por exemplo, para saber se um número é par, basta verificar se o resto da divisão por 2 é zero.
+Digite: par = 14 % 2 == 0
+=> true
+Digite: impar = 13 % 2 != 0
+=> false
+
+Operadores de comparação (maior, menor, maiorIgual e menorIgual):
+Digite: 3 > 2
+=> true
+Digite: 3 < 2
+=> false
+Digite: 3 >= 2
+=> true
+Digite: 3 <= 2
+=> false
+
+Existe um operador chamado de spaceship (nave espacial): <=>
+Ele retorna:
+-1 se o primeiro número for menor que o segundo,
+0 se os números forem iguais
+1 se o primeiro número for maior que o segundo.
+
+Digite: 1 <=> 2
+=> -1
+Digite: 2 <=> 2
+=> 0
+Digite: 3 <=> 2
+=> 1
+
+Também existe o operador de negação not ou !
+Digite: !(3 > 2) # precisa de parênteses, pois tem precedência MAIOR
+=> false
+Digite: not 3 > 2 # não precisa de parênteses, pois tem precedência menor
+=> false
