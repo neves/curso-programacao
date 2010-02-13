@@ -4,12 +4,13 @@
 titulo: menor de dois
 enunciado: Criar um programa que receba dois números distintos e exiba qual o menor
 exemplos:
-  23 34: o menor entre 23 e 34 é o 23
-  34 23: o menor entre 34 e 23 é o 23
+    23 34: o menor entre 23 e 34 é o 23
+    34 23: o menor entre 34 e 23 é o 23
 dificuldade: 1
-linguagem: ruby
+linguagem: php
 solucao: utilizando operador ternario
 categorias: [logica, ternario]
+ordem:  1.5
 =end
 */
 
