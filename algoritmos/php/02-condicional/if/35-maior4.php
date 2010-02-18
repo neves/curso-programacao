@@ -35,7 +35,6 @@ dificuldade: 3
 linguagem: php
 solucao: descobre o maior entre dois e repete o processo com os próximos.
 categorias: [logica, if, ternario]
-ordem: 3.5
 =end
 */
 // ENTRADA

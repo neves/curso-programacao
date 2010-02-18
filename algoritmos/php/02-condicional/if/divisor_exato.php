@@ -1,0 +1,63 @@
+<?
+
+/*@
+
+@Titulo: Resto da Divisão
+
+@Enunciado: Dado dois números de entrada,
+dizer se o primeiro é divisor exato do segundo.
+Caso não for, mostrar o resto da divisão, exemplo:
+3 é divisor exato de 33 com resultado 11
+3 não é divisor exato de 33, pois a divisão é 11 e o resto é 2
+
+@Objetivo: Aprender o operador para calcular o resto da divisão
+
+@Entrada: Dois Números
+
+@Saída:
+3 é divisor exato de 33 com resultado 11
+OU
+3 não é divisor exato de 33, pois a divisão é 11 e o resto é 2
+
+
+@Dica: Para verificar se um número é divisível por outro,
+basta dividí-lo usando o operador de resto e verificar se o resultado é zero.
+Exemplo: 33 % 3 == 0 mas 35 % 3 == 2 o primeiro é divisível exato por 3, mas o segundo não, 
+pois retornou resto 2.
+
+@Dificuldade: 1
+
+@Categoria: Operadores Básicos, Aritimética
+
+@Aula: 1
+
+@ordem 25
+
+@*/
+
+// .............................. INICIALIZAÇÃO ..............................
+
+$x = 35;
+$y = 3;
+
+// .............................. ENTRADA ..............................
+
+/*/ Descomentar para testar entrada de dados pelo DOS
+$x = $argv[1];
+$y = $argv[2];
+//*/
+
+// .............................. PROCESSAMENTO ..............................
+
+$divisao = floor($x / $y);
+$resto = $x % $y;
+$isDivisorExato = $resto == 0;
+
+// .............................. SAÍDA ..............................
+
+if ($isDivisorExato)
+	echo "$y é divisor exato de $x com resultado $divisao";
+else
+	echo "$y não é divisor exato de $x, pois a divisão é $divisao e o resto é $resto";
+
+?>

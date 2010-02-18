@@ -14,7 +14,6 @@ dificuldade: 3
 linguagem: php
 solucao: descobre o maior entre o primeiro e segundo e o compara com o terceiro para descobrir o maior
 categorias: [logica, if, ternario]
-ordem: 3
 =end
 */
 // ENTRADA

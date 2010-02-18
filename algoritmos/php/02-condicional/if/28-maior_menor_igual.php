@@ -11,7 +11,6 @@ dificuldade: 2
 linguagem: php
 solucao: utilizando if e else
 categorias: [logica, if, else]
-ordem: 2.8
 =end
 */
 

@@ -11,7 +11,6 @@ dificuldade: 2
 linguagem: php
 solucao: utilizando operador ternario
 categorias: [logica, if, else, ternario]
-ordem: 2.2
 =end
 */
 
