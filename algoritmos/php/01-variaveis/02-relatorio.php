@@ -1,5 +1,23 @@
 <?
 
+/**
+=begin
+titulo: Exibir dados formatados
+enunciado: |
+  Criar um programa que exiba a seguinte saída utilizando variáveis para os dados:
+  ____________________Dados Cadastrais____________________
+  Nome : John Doe
+  Email: john.doe@gmail.com
+  Idade: 64 anos
+  Local: Maringa/PR
+  Sexo : Masculino
+  ========================================================
+dificuldade: 0
+linguagem: php
+categorias: [saida]
+=end
+*/
+
 // ENTRADA
 
 $nome = "John Doe";
