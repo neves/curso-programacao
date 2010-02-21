@@ -1,4 +1,26 @@
 <?
+/**
+=begin
+titulo: Operações Básicas
+enunciado: Soma, subtração, multiplicação e divisão de dois números de entrada.
+exemplos:
+  64 4: |  
+    64 + 4 = 68
+    64 - 4 = 60
+    64 x 4 = 256
+    64 / 4 = 16
+  32 8: |
+    32 + 8 = 40
+    32 - 8 = 24
+    32 x 8 = 256
+    32 / 8 = 4
+
+dificuldade: 1
+linguagem: php
+solucao: Criar uma variável para guardar o resultado de cada operação
+categorias: [saida, aritimetica]
+=end
+*/
 
 // ENTRADA
 

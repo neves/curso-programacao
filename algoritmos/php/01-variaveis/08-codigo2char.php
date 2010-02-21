@@ -1,4 +1,18 @@
 <?
+/**
+=begin
+titulo: Código para Char
+enunciado: Converter um código ASCII para seu respectivo caracter
+exemplos:
+  65: 65 = [A]
+  64: 64 = [@]
+  48: 48 = [0]
+dificuldade: 1
+linguagem: php
+solucao: Utilizar a função chr(65)
+categorias: [api]
+=end
+*/
 
 // ENTRADA
 

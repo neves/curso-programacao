@@ -1,4 +1,17 @@
 <?
+/**
+=begin
+titulo: Trocar 4 números
+enunciado: Recebe 4 entradas e exibe em ordem inversa
+exemplos:
+  1 2 3 4: 4 3 2 1
+  9 8 7 6: 6 7 8 9
+dificuldade: 2
+linguagem: php
+solucao: Utilizar uma variável temporária para as duas trocas
+categorias: [logica]
+=end
+*/
 
 // ENTRADA
 

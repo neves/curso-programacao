@@ -1,4 +1,17 @@
 <?
+/**
+=begin
+titulo: Sorteio entre min e max
+enunciado: Sorteia um número entre min e max informado na entrada.
+exemplos:
+  10 10: sorteado o numero 10 entre 10 e 10.
+  1 2: sorteado o numero 1 entre 1 e 2.
+dificuldade: 1
+linguagem: php
+solucao: Utilizar a função mt_rand($min, $max)
+categorias: [api]
+=end
+*/
 
 // ENTRADA
 

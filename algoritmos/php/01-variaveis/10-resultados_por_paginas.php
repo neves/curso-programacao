@@ -1,13 +1,32 @@
 <?
+/**
+=begin
+titulo: Resultados por Página
+enunciado: "Receba de entrada um número representando a
+  quantidade de resultados retornados em um busca e
+  quantos resultados deseja exibir por página e 
+  exiba quantas páginas serão necessárias."
+exemplos:
+  120 9: 120 resultados exibidos em 14 paginas
+  49 20: 49 resultados exibidos em 3 paginas
+  40 20: 40 resultados exibidos em 2 paginas
+  29 20: 29 resultados exibidos em 2 paginas
+  41 20: 41 resultados exibidos em 3 paginas
+dificuldade: 1
+linguagem: php
+solucao: Utilizar a função ceil($numero) para arredondar para cima.
+categorias: [api,aritmetica]
+=end
+*/
 
 // ENTRADA
 
 $resultados = $argv[1];
-$porPagina = $argv[2];
+$por_pagina = $argv[2];
 
 // LOGICA
 
-$paginas = ceil($resultados / $porPagina);
+$paginas = ceil($resultados / $por_pagina);
 
 // .............................. SAÍDA ..............................
 

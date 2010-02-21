@@ -1,4 +1,27 @@
 <?
+/**
+=begin
+titulo: Desconto percentual
+enunciado: Receba de entrada um preço e uma porcentagem e exiba o preço com a porcentagem em desconto.
+exemplos:
+
+  100 10: |
+    Preco: R$ 100,00
+    Desconto: 10% (R$ -10,00)
+    Preco Final: R$ 90,00
+
+  259 20: |
+    Preco: R$ 259,00
+    Desconto: 20% (R$ -51,80)
+    Preco Final: R$ 207,20
+
+dificuldade: 2
+linguagem: php
+solucao: "Utilizar a função print_f para formatar a saida e
+  setlocale(LC_NUMERIC, 'ptb'); para trocar o separador decimal de ponto para vírgula."
+categorias: [api, aritmetica, saida]
+=end
+*/
 
 // ENTRADA
 

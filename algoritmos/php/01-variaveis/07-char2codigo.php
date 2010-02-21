@@ -1,4 +1,18 @@
 <?
+/**
+=begin
+titulo: Converter char para ASCII
+enunciado: Recebe um caracter e retorna seu código ASCII
+exemplos:
+  A: A = 65
+  @: @ = 64
+  0: 0 = 48
+dificuldade: 1
+linguagem: php
+solucao: Utilizar a função ord("@")
+categorias: [api]
+=end
+*/
 
 // ENTRADA
 
