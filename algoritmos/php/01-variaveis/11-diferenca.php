@@ -9,8 +9,8 @@ exemplos:
     3 3: A diferenca entre 3 e 3 = 0
 dificuldade: 1
 linguagem: php
-solucao: utilizando operador ternario
-categorias: [if, ternario]
+solucao: Subtrair os números e aplicar a função abs($numero) para retornar o valor positivo
+categorias: [api]
 =end
 */
 
@@ -21,13 +21,7 @@ $n2 = $argv[2];
 
 // LOGICA
 
-if ($n1 > $n2)
-	$diferenca = $n1 - $n2;
-else
-	$diferenca = $n2 - $n1;
-  
-// utilizando operador ternário
-// $diferenca = $n1 > $n2 ? $n1 - $n2 : $n2 - $n1;
+$diferenca = abs($n1 - $n2);
 
 // SAIDA
 

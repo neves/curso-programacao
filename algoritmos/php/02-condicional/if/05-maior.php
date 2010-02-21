@@ -10,7 +10,6 @@ dificuldade: 1
 linguagem: php
 solucao: utilizando operador ternario
 categorias: [logica, ternario]
-ordem: 1
 =end
 */
 

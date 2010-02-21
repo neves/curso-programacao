@@ -1,50 +1,35 @@
 <?
+/**
+=begin
+titulo: Acesso para adulto
+enunciado: Fazer um programa que recebe uma idade e diz se a pessoa tem acesso ao site proibido para menores de 18 anos.
+exemplos:
+    17: Acesso Negado!
+    18: Acesso Permitido. Bem Vindo!
+    19: Acesso Permitido. Bem Vindo!
+dificuldade: 0
+linguagem: php
+solucao: Utilizando if ou operador ternário
+categorias: [if, ternario]
+=end
+*/
 
-/*@
+// ENTRADA
 
-@Titulo: Maioridade
+$idade = $argv[1];
 
-@Enunciado: Permitir o acesso apenas para maiores de idade.
-
-@Objetivo: Primeiro exemplo de condicional.
-
-@Entrada: Um número inteiro correspondente a idade do visitante.
-
-@Saída:
-Acesso Permitido. Bem Vindo!
-ou
-Acesso Negado, você precisa ser maior de idade para entrar neste site.
-
-@Dica: Verificar se a idade informada é maior ou igual a 18 anos
-
-@Dificuldade: 1
-
-@Categoria: if
-
-@Aula: 2
-
-@ordem 1
-
-@*/
-
-// .............................. INICIALIZAÇÃO ..............................
-
-$idade = 18;
-
-// .............................. ENTRADA ..............................
-
-//$idade = $argv[1];
-
-// .............................. PROCESSAMENTO ..............................
+// LOGICA
 
 $adulto = $idade >= 18;
 
-// .............................. SAÍDA ..............................
+// SAIDA
 
 if ($adulto)
 	echo "Acesso Permitido. Bem Vindo!";
 else
-	echo "Acesso Negado,
-você possui $idade anos e precisa ser maior de idade para entrar neste site.";
+	echo "Acesso Negado!";
+
+// utilizando operador ternário
+// echo $adulto ? "Acesso Permitido. Bem Vindo!" : "Acesso Negado!";
 
 ?>

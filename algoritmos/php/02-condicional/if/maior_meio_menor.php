@@ -28,9 +28,9 @@ depois encontrar quem é o meio comparando com os já encontrados maior e menor
 
 // .............................. INICIALIZAÇÃO ..............................
 
-$n1 = 148;
-$n2 = 327;
-$n3 = 56;
+$maior = 148;
+$meio = 327;
+$menor = 56;
 
 // .............................. ENTRADA ..............................
 
@@ -61,6 +61,24 @@ else:
 	$meio = $n3;
 endif;
 /*/
+
+if ($meio < $menor):
+  $tmp = $menor;
+  $menor = $meio;
+  $meio = $tmp;  
+endif;
+
+if ($maior < $menor):
+  $tmp = $menor;
+  $menor = $maior;
+  $maior = $tmp;
+endif;
+
+if ($maior < $menor):
+  $tmp = $menor;
+  $menor = $maior;
+  $maior = $tmp;
+endif;
 
 //* Solução Recomendada pela simplicidade
 $maior = $n1; // primeiro descobre o maior
