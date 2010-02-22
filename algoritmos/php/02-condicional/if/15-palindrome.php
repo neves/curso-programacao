@@ -1,0 +1,34 @@
+<?
+/**
+=begin
+titulo: Palíndrome
+enunciado: "Palíndrome é uma palavra ou número que é igual se lido de traz pra frente.
+  Receber uma entrada e apenas dizer se é palíndrome ou não."
+exemplos:
+    101: SIM
+    2002: SIM
+    A: SIM
+    ABC: NAO
+    ANA: SIM
+    RADAR: SIM
+dificuldade: 1
+linguagem: php
+solucao: "Utilizar a função strrev para inverter uma string e comparar com ela mesma.
+  Aplicar a função trim na entrada, para remover os espaços no começo e no fim da entrada."
+categorias: [api, ternario]
+=end
+*/
+
+// ENTRADA
+
+$palavra = trim($argv[1]);
+
+// LOGICA
+
+$palindrome = $palavra == strrev($palavra);
+
+// SAIDA
+
+echo $palindrome ? "SIM" : "NAO";
+
+?>

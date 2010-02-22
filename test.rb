@@ -1,8 +1,5 @@
 require 'yaml'
 
-file = "algoritmos/php/02-condicional/if/20-maior_menor.php"
-file = "algoritmos/php/02-condicional/if/02-adulto.php"
-
 # encontra arquivos sem comentarios
 Dir["algoritmos/php/**/*.php"].each do |file|
   next if file =~ /passos/
